@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="21" assertions="82" failures="0" errors="0" time="0.628879">
+    <testsuite name="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" namespace="Icecave\Isolator" fullPackage="Icecave.Isolator" tests="9" assertions="54" failures="0" errors="0" time="0.250337">
+      <testcase name="testGenerateClass" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="20" assertions="2" time="0.030637"/>
+      <testcase name="testInspect" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="53" assertions="8" time="0.038748"/>
+      <testcase name="testInspectEllipsis" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="98" assertions="9" time="0.035849"/>
+      <testcase name="testInspectEllipsisOptional" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="157" assertions="9" time="0.036078"/>
+      <testcase name="testInspectEllipsisReference" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="216" assertions="9" time="0.036041"/>
+      <testcase name="testRequiresIsolatorProxyDisabled" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="275" assertions="2" time="0.011812"/>
+      <testcase name="testRequiresIsolatorProxyReturnsReference" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="287" assertions="3" time="0.015239"/>
+      <testcase name="testRequiresIsolatorProxyReferenceParameter" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="306" assertions="6" time="0.024288"/>
+      <testcase name="testRequiresIsolatorProxyNoReferenceParameters" class="Icecave\Isolator\GeneratorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/GeneratorTest.php" line="343" assertions="6" time="0.021645"/>
+    </testsuite>
+    <testsuite name="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" namespace="Icecave\Isolator" fullPackage="Icecave.Isolator" tests="12" assertions="28" failures="0" errors="0" time="0.378542">
+      <testcase name="testCall" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="17" assertions="1" time="0.003547"/>
+      <testcase name="testEcho" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="23" assertions="1" time="0.016763"/>
+      <testcase name="testEval" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="30" assertions="1" time="0.004635"/>
+      <testcase name="testInclude" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="36" assertions="3" time="0.005191"/>
+      <testcase name="testIncludeOnce" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="48" assertions="3" time="0.005183"/>
+      <testcase name="testRequire" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="60" assertions="3" time="0.005158"/>
+      <testcase name="testRequireOnce" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="72" assertions="3" time="0.005158"/>
+      <testcase name="testGet" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="84" assertions="2" time="0.162928"/>
+      <testcase name="testGetIsolator" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="91" assertions="2" time="0.145104"/>
+      <testcase name="testGetIsolatorNoReferences" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="98" assertions="1" time="0.004564"/>
+      <testcase name="testGetIsolatorExistingInstance" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="104" assertions="2" time="0.004814"/>
+      <testcase name="testGetIsolatorNewInstance" class="Icecave\Isolator\IsolatorTest" file="/home/travis/build/IcecaveStudios/isolator/test/suite/Icecave/Isolator/IsolatorTest.php" line="111" assertions="6" time="0.015497"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
