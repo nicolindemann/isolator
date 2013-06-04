@@ -21,4 +21,5 @@ ok 19 - Icecave\Isolator\IsolatorTest::testGetIsolatorNoReferences
 ok 20 - Icecave\Isolator\IsolatorTest::testGetIsolatorExistingInstance
 ok 21 - Icecave\Isolator\IsolatorTest::testGetIsolatorNewInstance
 ok 22 - Icecave\Isolator\IsolatorTest::testClassName
-1..22
+ok 23 - Icecave\Isolator\IsolatorTraitTest::testIsolator
+1..23
