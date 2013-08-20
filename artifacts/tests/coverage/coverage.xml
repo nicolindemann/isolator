@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1375135703">
-  <project timestamp="1375135703">
+<coverage generated="1376959122">
+  <project timestamp="1376959122">
     <package name="Icecave\Isolator">
       <file name="/home/travis/build/IcecaveStudios/isolator/lib/Icecave/Isolator/Generator.php">
         <class name="Generator" namespace="Icecave\Isolator">
