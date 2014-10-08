@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>Icecave\Isolator\Detail\Autoloader | icecave/isolator API</title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title">icecave/isolator API</div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../../Icecave/Isolator/Detail.html">Icecave\Isolator\Detail</a>\Autoloader</h1>
+    </div>
+        <div class="content">
+                <p>class    <strong>Autoloader</strong></p>
+
+            <div class="description">
+            <p>An arcane magic autoloader that generates code for the isolator class when it is first loaded.</p>
+            <p>
+</p>
+        </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(string $path, <a href="../../../Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a> $codeGenerator)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_load">load</a>(string $className)
+                    <p>Load an isolator class with the given name.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    string
+                </td>
+                <td class="last">
+                    <a href="#method_computeHash">computeHash</a>(string $className, array $functions)
+                    <p>Compute a unique hash used to identify an isolator implementation that proxies the given functions.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_generateIsolatorClass">generateIsolatorClass</a>($fileName, $className, array $functions)
+                    <p>Generate and store an isolator implementation.</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 16</div>
+        <code>            public            
+    <strong>__construct</strong>(string $path, <a href="../../../Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a> $codeGenerator)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$path</td>
+                <td>The path under which to store generated code.</td>
+            </tr>
+                    <tr>
+                <td><a href="../../../Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a></td>
+                <td>$codeGenerator</td>
+                <td>The code generator used to create isolator classes.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_load">
+        <div class="location">at line 27</div>
+        <code>            public            
+    <strong>load</strong>(string $className)</code>
+    </h3>
+    <div class="details">
+        <p>Load an isolator class with the given name.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$className</td>
+                <td>The name to give to the isolator class.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_computeHash">
+        <div class="location">at line 56</div>
+        <code>            public            string
+    <strong>computeHash</strong>(string $className, array $functions)</code>
+    </h3>
+    <div class="details">
+        <p>Compute a unique hash used to identify an isolator implementation that proxies the given functions.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$className</td>
+                <td>The name to give to the isolator class.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$functions</td>
+                <td>An array of global function names.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_generateIsolatorClass">
+        <div class="location">at line 83</div>
+        <code>            public            
+    <strong>generateIsolatorClass</strong>($fileName, $className, array $functions)</code>
+    </h3>
+    <div class="details">
+        <p>Generate and store an isolator implementation.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$fileName</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$className</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$functions</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

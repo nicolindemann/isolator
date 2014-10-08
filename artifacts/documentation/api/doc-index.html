@@ -20,15 +20,15 @@
 
             <div class="type">Index</div>
 
-                        A
+                        <a href="#letterA">A</a>
                                 B
-                                C
+                                <a href="#letterC">C</a>
                                 D
                                 E
                                 F
                                 <a href="#letterG">G</a>
                                 H
-                                <a href="#letterI">I</a>
+                                I
                                 J
                                 K
                                 L
@@ -37,7 +37,7 @@
                                 O
                                 P
                                 Q
-                                <a href="#letterR">R</a>
+                                R
                                 S
                                 T
                                 U
@@ -48,31 +48,33 @@
                                 Z
                 </div>
         <div class="content">
-                <h2 id="letterC">C</h2>
-        <dl id="index"><dt><a href="Icecave/Isolator/Isolator.html#method_className"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr>::className</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a></em></dt>
-                    <dd>Fetch the isolator class name.</dd>        </dl><h2 id="letterG">G</h2>
-        <dl id="index"><dt><a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator.html">Icecave\Isolator</a></em></dt>
-                    <dd>Generates an isolator that can accommodate calls to functions with reference parameters.</dd><dt><a href="Icecave/Isolator/Generator.html#method_generateClass"><abbr title="Icecave\Isolator\Generator">Generator</abbr>::generateClass</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a></em></dt>
+                <h2 id="letterA">A</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/AbstractIsolator.html"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator/Detail.html">Icecave\Isolator\Detail</a></em></dt>
                     <dd>
-</dd><dt><a href="Icecave/Isolator/Generator.html#method_generateProxyMethod"><abbr title="Icecave\Isolator\Generator">Generator</abbr>::generateProxyMethod</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a></em></dt>
-                    <dd>
-</dd><dt><a href="Icecave/Isolator/Isolator.html#method_get"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr>::get</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a></em></dt>
-                    <dd>Fetch an isolator instance.</dd><dt><a href="Icecave/Isolator/Isolator.html#method_getIsolator"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr>::getIsolator</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a></em></dt>
-                    <dd>Fetch the default isolator instance, constructing it if necessary.</dd>        </dl><h2 id="letterI">I</h2>
-        <dl id="index"><dt><a href="Icecave/Isolator/Generator.html#method_inspect"><abbr title="Icecave\Isolator\Generator">Generator</abbr>::inspect</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a></em></dt>
-                    <dd>
-</dd><dt><a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator.html">Icecave\Isolator</a></em></dt>
-                    <dd>Isolate calls to global PHP functions.</dd>        </dl><h2 id="letterP">P</h2>
+</dd><dt><a href="Icecave/Isolator/Detail/Autoloader.html"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator/Detail.html">Icecave\Isolator\Detail</a></em></dt>
+                    <dd>An arcane magic autoloader that generates code for the isolator class when it is first loaded.</dd>        </dl><h2 id="letterC">C</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/Autoloader.html#method_computeHash"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr>::computeHash</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/Autoloader.html"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr></a></em></dt>
+                    <dd>Compute a unique hash used to identify an isolator implementation that proxies the given functions.</dd><dt><a href="Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator/Detail.html">Icecave\Isolator\Detail</a></em></dt>
+                    <dd>Generates an isolator that can accommodate calls to functions with reference parameters.</dd>        </dl><h2 id="letterG">G</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/AbstractIsolator.html#method_get"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr>::get</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/AbstractIsolator.html"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr></a></em></dt>
+                    <dd>Fetch an isolator instance.</dd><dt><a href="Icecave/Isolator/Detail/Autoloader.html#method_generateIsolatorClass"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr>::generateIsolatorClass</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/Autoloader.html"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr></a></em></dt>
+                    <dd>Generate and store an isolator implementation.</dd><dt><a href="Icecave/Isolator/Detail/CodeGenerator.html#method_generate"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr>::generate</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a></em></dt>
+                    <dd>Generate an isolator implementation.</dd>        </dl><h2 id="letterI">I</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator.html">Icecave\Isolator</a></em></dt>
+                    <dd>Make calls to global functions via a mockable object.</dd>        </dl><h2 id="letterL">L</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/Autoloader.html#method_load"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr>::load</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/Autoloader.html"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr></a></em></dt>
+                    <dd>Load an isolator class with the given name.</dd>        </dl><h2 id="letterP">P</h2>
         <dl id="index"><dt><a href="Icecave/Isolator/PackageInfo.html"><abbr title="Icecave\Isolator\PackageInfo">PackageInfo</abbr></a> &mdash; <em>Class in namespace <a href="Icecave/Isolator.html">Icecave\Isolator</a></em></dt>
                     <dd>
-</dd>        </dl><h2 id="letterR">R</h2>
-        <dl id="index"><dt><a href="Icecave/Isolator/Generator.html#method_requiresIsolatorProxy"><abbr title="Icecave\Isolator\Generator">Generator</abbr>::requiresIsolatorProxy</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a></em></dt>
+</dd>        </dl><h2 id="letterS">S</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/AbstractIsolator.html#method_set"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr>::set</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/AbstractIsolator.html"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr></a></em></dt>
+                    <dd>Set the default isolator instance.</dd>        </dl><h2 id="letter_">_</h2>
+        <dl id="index"><dt><a href="Icecave/Isolator/Detail/AbstractIsolator.html#method___call"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr>::__call</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/AbstractIsolator.html"><abbr title="Icecave\Isolator\Detail\AbstractIsolator">AbstractIsolator</abbr></a></em></dt>
+                    <dd>Forward a call onto global function.</dd><dt><a href="Icecave/Isolator/Detail/Autoloader.html#method___construct"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr>::__construct</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/Autoloader.html"><abbr title="Icecave\Isolator\Detail\Autoloader">Autoloader</abbr></a></em></dt>
                     <dd>
-</dd><dt><a href="Icecave/Isolator/Isolator.html#method_resetIsolator"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr>::resetIsolator</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a></em></dt>
-                    <dd>Reset the default isolator instance.</dd>        </dl><h2 id="letter_">_</h2>
-        <dl id="index"><dt><a href="Icecave/Isolator/Generator.html#method___construct"><abbr title="Icecave\Isolator\Generator">Generator</abbr>::__construct</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Generator.html"><abbr title="Icecave\Isolator\Generator">Generator</abbr></a></em></dt>
+</dd><dt><a href="Icecave/Isolator/Detail/CodeGenerator.html#method___construct"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr>::__construct</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Detail/CodeGenerator.html"><abbr title="Icecave\Isolator\Detail\CodeGenerator">CodeGenerator</abbr></a></em></dt>
                     <dd>
-</dd><dt><a href="Icecave/Isolator/Isolator.html#method___call"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr>::__call</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/Isolator.html"><abbr title="Icecave\Isolator\Isolator">Isolator</abbr></a></em></dt>
+</dd><dt><a href="Icecave/Isolator/IsolatorInterface.html#method___call"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr>::__call</a>() &mdash; <em>Method in class <a href="Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a></em></dt>
                     <dd>Forward a call onto global function.</dd>        </dl>        </div>
             <div id="footer">
         Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.

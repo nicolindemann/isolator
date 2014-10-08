@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>Icecave\Isolator\Detail\AbstractIsolator | icecave/isolator API</title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title">icecave/isolator API</div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../../Icecave/Isolator/Detail.html">Icecave\Isolator\Detail</a>\AbstractIsolator</h1>
+    </div>
+        <div class="content">
+                <p>abstract class    <strong>AbstractIsolator</strong>        implements
+        <a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a></p>
+
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    mixed
+                </td>
+                <td class="last">
+                    <a href="#method___call">__call</a>(string $name, array $arguments)
+                    <p>Forward a call onto global function.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    static&nbsp;<a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a>
+                </td>
+                <td class="last">
+                    <a href="#method_get">get</a>(<a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a> $isolator = null)
+                    <p>Fetch an isolator instance.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    static&nbsp;
+                </td>
+                <td class="last">
+                    <a href="#method_set">set</a>(<a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a> $isolator = null)
+                    <p>Set the default isolator instance.</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___call">
+        <div class="location">at line 32</div>
+        <code>            public            mixed
+    <strong>__call</strong>(string $name, array $arguments)</code>
+    </h3>
+    <div class="details">
+        <p>Forward a call onto global function.</p>
+        <p>Support is also provided for the following function-esque language constructs:</p>
+
+<ul>
+<li>exit</li>
+<li>die</li>
+<li>echo</li>
+<li>include</li>
+<li>include_once</li>
+<li>require</li>
+<li>require_once</li>
+<li>new</li>
+</ul>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>The name of the global function to call.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$arguments</td>
+                <td>The arguments to the function.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>The result of the function call.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_get">
+        <div class="location">at line 82</div>
+        <code>        static    public            <a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a>
+    <strong>get</strong>(<a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a> $isolator = null)</code>
+    </h3>
+    <div class="details">
+        <p>Fetch an isolator instance.</p>
+        <p>This convenience method returns the global isolator instance, or $instance if provided.</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a></td>
+                <td>$isolator</td>
+                <td>An existing isolator instance, if available.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a></td>
+            <td>The global isolator instance, or $isolator if provided.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_set">
+        <div class="location">at line 98</div>
+        <code>        static    public            
+    <strong>set</strong>(<a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a> $isolator = null)</code>
+    </h3>
+    <div class="details">
+        <p>Set the default isolator instance.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td><a href="../../../Icecave/Isolator/IsolatorInterface.html"><abbr title="Icecave\Isolator\IsolatorInterface">IsolatorInterface</abbr></a></td>
+                <td>$isolator</td>
+                <td>The isolator instance.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>
